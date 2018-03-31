@@ -1,0 +1,60 @@
+#dashboard div.group {
+	border: solid white;
+	border-width: 1px 0;
+	display: block;
+	margin: 5px 0;
+	padding: 5px 0;
+	width: 100%;
+}
+
+div.group .bill {
+	background-color: white;
+	border-radius: 4px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+div.group-square {
+	background-color: white;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 5px 40px;
+	width: 20%;
+}
+
+ul.join-requests {
+	margin-left: 40px;
+}
+
+li.payment {
+	background-color: white;
+	border: 1px solid #222222;
+	margin: 4px 0;
+	position: relative;
+}
+
+li.payment .bar {
+	background-color: #FBC368;
+	height: 100%;
+	margin: 0;
+	opacity: 0.5;
+	padding: 0;
+	position: absolute;
+	text-align: left;
+	top: 0;
+}
+li.payment .bar.full {
+	background-color: #68FB79;
+}
+
+p.payment-description {
+	font-style: italic;
+    text-align: center;
+}
+
+p span.field {
+	text-decoration: underline;
+}
+

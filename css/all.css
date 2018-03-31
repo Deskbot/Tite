@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700|Open+Sans:600);
+
+* {
+    font-family: inherit;
+}
+
+html {
+	background: linear-gradient(top, rgba(100,80,250,0.63), rgba(100,80,250,0.3));
+    background: -webkit-linear-gradient(top, rgba(100,80,250,0.63), rgba(100,80,250,0.3));
+	background: -moz-linear-gradient(top, rgba(100,80,250,0.63), rgba(100,80,250,0.3));
+	background: -ms-linear-gradient(top, rgba(100,80,250,0.63), rgba(100,80,250,0.3));
+	background: -o-linear-gradient(top, rgba(100,80,250,0.63), rgba(100,80,250,0.3));
+	background-color: rgba(100,80,250,0.63);
+	background-repeat: no-repeat;
+	color: black;
+	height: 100%;
+}
+
+body {
+	font-family: verdana Roboto 'Open Sans' Helvetica sans-serif;
+	font-weight: 500;
+	margin: 0 auto;
+	width: 80%;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 2.5px auto 2.5px auto;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 5px auto;
+	text-align: center;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+h3.first {
+	margin-top: 0;
+}
+
+header {
+	background-color: #CEC8FA;
+	border: 5px solid #222222;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 0 10px;
+	text-align: center;
+	width: 100%;
+}
+
+nav {
+	/*border-top: 2px solid #E8E8E8;*/
+	text-align: inherit;
+	padding: 5px 0;
+	width: 95%;
+}
+
+nav > ul {
+	width: 100%;
+}
+
+nav > ul > li {
+	background-color: white;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 2.5px 5px 2.5px 5px;
+	text-align: center;
+	vertical-align: text-center;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+nav > ul > li > a {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 4px 10px;
+	text-decoration: none;
+}
+
+main, aside {
+	background-color: #CEC8FA;
+	border: 5px solid #222222;
+	border-radius: 5px;
+	padding: 0 10px 10px 10px;
+	text-align: center;
+	width: 100%;
+}
+
+aside {
+	margin-top: 10px;
+}
+
+a {
+	color: rgb(250,80,80);
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 1px 0;
+	line-height: 125%;
+	text-align: left;
+}
+
+div {
+	margin: auto;
+	padding: 5px;
+	vertical-align: top;
+}
+
+div.half {
+	display: inline-block;
+	width: 48%;
+}
+
+form {
+	background-color: white;
+	border: 1px solid #222222;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+}
+
+form.inline {
+	border: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: auto;
+}
+
+div > ul {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+div > ul > li {
+	background-color: none;
+	list-style-type: square;
+}
+
+input, textarea, select, option {
+	background-color: white;
+	border: 1px solid #888888;
+	font-size: 16px;
+	margin: 2px -6px;
+	padding: 2px 4px;
+	width: 100%;
+}
+
+textarea {
+	resize: none;
+}
+
+button, input[type="submit"] {
+	background-color: #DDDDDD;
+	border: 1px solid #333333;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 4px 10px;
+	margin: 5px 0;
+}
+
+form.inline input[type="submit"] {
+	width: auto;
+}
+
+.hidden {
+	visibility: hidden;
+}
